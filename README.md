@@ -14,11 +14,11 @@
 
 | | |
 |---|---|
-| **Name** | Pravin Mishra |
-| **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
-| **Location** | Helsinki, Finland |
-| **Background** | Cloud, DevOps & AI Consultant |
-| **Goal** | Train 10,000+ DevOps professionals |
+| **Name** | Rofiat Ahmed Sholagberu |
+| **LinkedIn** | [Rofiat Ahmed Sholagberu](www.linkedin.com/in/rofiat-ahmed-sholagberu-80a69a108) |
+| **Location** | Nigeria |
+| **Background** | Azure Cloud Support Engineer |
+| **Goal** | DevOps professional |
 
 ---
 
@@ -57,7 +57,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 *Earn a badge each week. To unlock: remove the `<!--` and `-->` from the badge line below.*
 
-*Share your stack:* `https://github.com/YOUR-USERNAME/devops-micro-internship-pravinmishra#my-devops-stack`
+*Share your stack:* `https://github.com/robeerah/devops-micro-internship-pravinmishra#my-devops-stack`
 
 **Preview — what your full stack looks like:**
 

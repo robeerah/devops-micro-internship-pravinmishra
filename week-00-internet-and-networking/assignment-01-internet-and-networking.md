@@ -25,7 +25,7 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![alt text](image.png)
 
 
 Replace `task-1-chatgpt.png` with your actual screenshot file name.
@@ -34,7 +34,16 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+**Using ChatGPT as Your Learning Assistant**
+
+Purpose: Use ChatGPT to clarify concepts, get step-by-step examples, and draft explanations in simple language.
+
+How to ask and prompt properly: Tell ChatGPT who you are (novice/experienced), what format you want (summary, checklist, example), and any constraints (length, tone).
+
+Example prompt: “I’m learning DevOps as a beginner. Explain packet switching in simple terms and give a short real-world analogy.”
+
+Best practice: Ask follow-ups when unclear, request examples or diagrams, and use ChatGPT to draft answers you then personalize.
+
 
 ---
 
@@ -59,7 +68,23 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+**Internet and Networking**
+
+Definition: The Internet is a global network of networks that lets devices exchange data.
+Packet switching: Data is split into small packets; packets can travel different routes and are reassembled at the destination this increases efficiency and resilience.
+
+**Key protocols:**
+IP (Internet Protocol): Provides addressing and routing; devices and servers have unique IP addresses.
+
+TCP (Transmission Control Protocol): Ensures reliable, ordered delivery; retransmits lost packets.
+
+UDP (User Datagram Protocol): Connectionless, lower-latency—used for real-time audio/video where speed matters more than perfect reliability.
+
+HTTP/HTTPS: Web protocols; HTTPS encrypts traffic for confidentiality and integrity.
+
+Ports: Numeric entry points on a server that identify services (e.g., HTTP 80, HTTPS 443, SSH 22). Multiple apps can run on one IP using different ports.
+
+Practical DevOps note: Troubleshooting often involves checking IP reachability, port availability, protocol behavior, and firewall rules.
 
 ---
 
@@ -89,12 +114,17 @@ EpicReads bookstore has two application versions:
 
 ## Diagram Screenshot / Photo
 
-Save your diagram image in the `screenshots` folder and update the file name below.
+Save your diagram image in the `screenshots` folder and upd
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
+![alt text](image-1.png)
+
+* Three-tier: Presentation (frontend), Business Logic (backend), Database. More modular and maintainable.
+
+![alt text](image-2.png)
+
+* Two-tier: Presentation (frontend) and database. Simpler, direct frontend-to-database interaction.
 
 
-Replace `task-3-diagram.png` with your actual diagram file name.
 
 ---
 
@@ -102,18 +132,34 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* Frontend: React, Next.js, CSS frameworks.
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Backend: Node.js, Express (APIs/business logic).
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* Database: MySQL, PostgreSQL; ORMs or query libraries.
+
+### Application Architecture & Stack
+
+## Common architectures:
+
+* Two-tier: Presentation (frontend) and database. Simpler, direct frontend-to-database interaction.
+* Three-tier: Presentation (frontend), Business Logic (backend), Database. More modular and maintainable.
+* Microservices: Frontend interacts with many small services (user, inventory, orders, payments), often with separate databases better for scaling and independent deployments.
+
+Example apps used in the course: book-reviews (three-tier), React app (two-tier), static mini-finance site, monolith (epic books).
+
+## Tech stack examples per layer:
+
+* Frontend: React, Next.js, CSS frameworks.
+* Backend: Node.js, Express (APIs/business logic).
+* Database: MySQL, PostgreSQL; ORMs or query libraries.
+
+DevOps relevance: Know which technologies are used so you can install/configure dependencies, open correct ports, and set up deployment pipelines.
+
 
 ---
 
@@ -142,7 +188,21 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+Domain Name & DNS (Basic Concepts)
+
+* Domain name: Human-readable address (e.g., example.com) used instead of IP for ease and branding.
+* DNS (Domain Name System): The Internet’s phone book—translates domain names to IP addresses via a resolution process involving browser cache, DNS resolvers (ISP or public), root servers, TLD servers, and authoritative servers.
+* DNS records (common types):
+    * A: maps a name to an IPv4 address.
+    * AAAA: maps to IPv6.
+    * CNAME: alias to another domain.
+    * MX: mail exchange records for email routing.
+    * TXT: text records (e.g., verification, SPF).
+
+* How mapping works: You register a domain with a registrar, set DNS records (often in a DNS service like AWS Route 53), and point the domain to the server IP or load balancer.
+
+* DevOps note: If a service works by IP but not by domain, check DNS records, TTL, propagation, and record types (A vs CNAME), plus DNS resolver caching.
+
 
 ---
 
