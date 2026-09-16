@@ -31,9 +31,9 @@ You will reuse this in later weeks. So do it properly once.
 
 **Hint:** What do you believe about career, money, learning, discipline, relationships, health, success, life, tech industry, etc. that most people don't agree with?
 
-## Answer
+## Answer:
+I believe that working extremely hard does not automatically lead to success, and this is something many people around me strongly disagree with. Most people believe that if you suffer enough and stay busy, success must come. To me, what actually matters most is understanding your environment, having clear direction through roadmaps of what you want to achieve, learning the right skills, and having access to the right resources. Networking and the ability to see and seize opportunities also matter. I have seen people work tirelessly for years without progress because they lack goals, focus, and consistency. Some procrastinate until they lose time and opportunities. I believe discipline is important, but intentional learning, strategy, time management, and consistency matter more. Being busy is not the same as working in the right direction to build a better version of myself.
 
-Add your answer here...
 
 ---
 
@@ -53,38 +53,32 @@ Write each truth in this format:
 
 ## Truth #1
 
-### Truth
+### Truth: 
+Learning cloud computing without hands-on practice leads to shallow understanding.
 
-Add your answer here...
-
-### Evidence from my life
-
-Add your answer here...
+### Evidence from my life: 
+I once focused mainly on watching tutorials, relying on colleagues for solutions, and reading only parts of the documentation. I felt confident until I had to build or troubleshoot something on my own and struggled. When I started practicing by setting up labs, breaking things, and fixing them, my understanding improved significantly.
 
 ---
 
 ## Truth #2
 
-### Truth
+### Truth: 
+Consistent learning beats cramming in the tech field.
 
-Add your answer here...
+### Evidence from my life: 
+There was a time I prepared for my certification through intense but irregular study sessions and kept forgetting what I learned. When I switched to consistent daily or weekly study, I became more confident in applying the knowledge and successfully passed my exam.
 
-### Evidence from my life
-
-Add your answer here...
 
 ---
 
 ## Truth #3
 
-### Truth
+### Truth: 
+Clear learning goals accelerate progress in tech.
 
-Add your answer here...
-
-### Evidence from my life
-
-Add your answer here...
-
+### Evidence from my life: 
+I struggled to choose a career path in the tech world without a roadmap, jumping between tools and technologies without making progress. Once I clearly defined my goals and learning direction, I became more focused and started achieving measurable results.
 ---
 
 # Assignment 3. What does your 2.0 version look like?
@@ -135,13 +129,26 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+**Rofiat Ahmed's 2.0: From Azure Support to DevOps Engineer, Transforming Systems and Communities**
+
+A few years ago, Rofiat Ahmed made a bold decision: she stepped beyond the comfort of Azure support work to fully embrace the world of DevOps. It wasn't an easy move. She left behind familiar tickets, troubleshooting scripts, and routine processes to learn how to build, automate, and scale cloud systems that could withstand real-world demands.
+Rofiat quickly proved herself in this new role. She designed and maintained cloud infrastructure on Microsoft Azure, automating networks, storage, compute, and identity management using Terraform. She built CI/CD pipelines with GitHub Actions and Azure DevOps, ensuring code could flow safely from development to production. Her pipelines included automated tests, quality checks, and secure configuration management, bringing speed and reliability to every deployment.
+Her work didn't stay hidden. On GitHub, she published repositories showcasing containerized applications with Docker, Terraform-driven infrastructure, and end-to-end deployment workflows. Each project included clear documentation explaining design choices, potential failure points, and lessons learned. She also maintained a blog where she broke down complex DevOps concepts into simple, actionable guides—helping others, especially those transitioning from support roles, understand the path forward.
+At work, Rofiat became the go-to engineer for stabilizing production workloads. She collaborated with developers, security teams, and platform engineers to optimize cloud costs, improve deployment reliability, and standardize infrastructure practices across teams. Her certifications in Azure and DevOps tools added credibility, but her true impact was visible in the uptime, speed, and resilience of the systems she supported.
+Beyond her professional achievements, Rofiat gave back to the community. She mentored younger engineers, guided them through GitHub portfolios and career roadmaps, and shared her knowledge in meetups and online forums. Her influence extended beyond her team—she helped others see that growth in tech comes from curiosity, consistency, and courage to leave one's comfort zone.
+By the end of this chapter, Rofiat had become a smart, confident, and highly capable DevOps engineer. She built systems that worked, nurtured communities that thrived, and fulfilled personal dreams along the way. In doing so, she not only advanced her own career but also contributed to a world of technology that was stronger, more inclusive, and better prepared for the future.
+
+P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://github.com/robeerah/devops-micro-internship-pravinmishra · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3
+Public Link:
+
+
 
 ### Public Link
 
 Paste your link here:
+https://medium.com/@rofiat.ahmed/from-azure-support-to-devops-engineer-how-i-left-my-comfort-zone-and-built-resilient-systems-703516a18525 
 
-`Add your URL here`
+https://medium.com/@rofiat.ahmed/from-azure-support-to-devops-engineer-how-i-left-my-comfort-zone-and-built-resilient-systems-703516a18525
 
 ---
 
@@ -173,7 +180,9 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+No
+
+I have never cut corners because I take pride in my hard-earned work and my integrity means a lot to me. I truly dislike injustice and being lied to, and I would feel deeply uncomfortable doing something that goes against those values. Even when the honest path is harder or slower, it gives me peace knowing that whatever I achieve is genuinely mine. Working with honesty allows me to feel calm, confident, and at ease with myself. I don't carry fear, guilt, or regret—just the quiet satisfaction of knowing I did the right thing and stayed true to who I am.
 
 ---
 
@@ -199,16 +208,17 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. Think and Grow Rich by Napoleon Hill
+2. Atomic Habits by James Clear
+3. The 7 Habits of Highly Effective People by Stephen R. Covey
+4. Deep Work by Cal Newport
+5. Rich Dad Poor Dad by Robert T. Kiyosaki
+6. Mindset: The New Psychology of Success by Carol S. Dweck
+7. How to Win Friends and Influence People by Dale Carnegie
+8. The Psychology of Money by Morgan Housel
+9. Leaders Eat Last by Simon Sinek
+10. So Good They Can't Ignore You by Cal Newport
+
 
 ---
 
@@ -237,16 +247,16 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Learning and growth in my DevOps Journey
+* Practice hands-on and labs
+* Get certifications and courses completed
+* Problem-solving and troubleshooting ability
+* Eating healthy and working out to focus on my energy levels
+* Get quality sleep with consistency pattern
+* Time management and focus
+* Deep work sessions
+* Personal spending tracker
+* Savings and financial discipline
 
 ---
 
@@ -272,8 +282,7 @@ Examples:
 
 Answer:
 
-Add your answer here...
-
+Yes, I did
 ---
 
 ## Step 2: Your 5-Month Routine + Focus Blocks
@@ -290,7 +299,11 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+**My Weekly Routine:**
+Monday to Thursday: 90 minutes of deep work on my assignment and submission
+Saturday: DMI session and relax time with family
+Sunday: Review what was taught in the DMI session and prepare for assignment
+Friday: Self reflection
 
 ---
 
@@ -298,11 +311,11 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+4 to 5 days which include Sunday to Thursday + 2-3 hours on Sunday and 90 minutes on Monday to Thursday.
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+One session with Pravin every Saturday and a revision session on Sunday.
 
 ---
 
@@ -316,7 +329,7 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
+I have made plans and have been working on the no phone by using the Do Not Disturb Button on my phone to avoid distraction and wary of my environment distraction by focusing on relevant things that benefit my learn and grow goals.
 
 ---
 
@@ -324,19 +337,19 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+I realized that I have been confusing being busy with being productive. This week helped me understand that having a clear system and roadmap is more important than just working hard without direction.
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+I tend to jump between different learning resources without completing one before starting another, which leads to shallow understanding and lack of progress.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+I will dedicate 90 minutes every Monday to Thursday from 8:00 PM to 9:30 PM for focused DMI assignment work with my phone on Do Not Disturb mode.
 
 ### LinkedIn Post
 
-Paste your LinkedIn post link here:
+Paste your LinkedIn post link here: N/A
 
 `Add your URL here`
 
@@ -344,9 +357,8 @@ Paste your LinkedIn post link here:
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
-
+- LinkedIn Post URL: N/A 
+- Blog / Medium : https://medium.com/@rofiat.ahmed/from-azure-support-to-devops-engineer-how-i-left-my-comfort-zone-and-built-resilient-systems-703516a18525 
 ---
 
 ## 📌 About DMI & CloudAdvisory

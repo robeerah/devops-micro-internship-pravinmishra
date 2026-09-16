@@ -267,7 +267,7 @@ Command run: dir or ls (to list directory contents)
 
 
 
-Replace `task-5-vscode.png` with your actual screenshot file name.
+
 ![alt text](image-10.png)
 ---
 
