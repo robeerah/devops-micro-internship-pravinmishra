@@ -29,6 +29,7 @@ Save your screenshot in the `screenshots` folder and update the file name below.
 
 
 Replace `task-1-chatgpt.png` with your actual screenshot file name.
+![alt text](image-3.png)
 
 ---
 
@@ -44,7 +45,17 @@ Example prompt: “I’m learning DevOps as a beginner. Explain packet switching
 
 Best practice: Ask follow-ups when unclear, request examples or diagrams, and use ChatGPT to draft answers you then personalize.
 
+## Answer
 
+**Prompt Used:**
+"I am a beginner learning DevOps. Please explain what a 'protocol' is in networking. Use beginner-friendly language and provide a simple, real-life analogy to help me understand how it works."
+ChatGPT Response Summary:
+ChatGPT explained that a networking protocol is a standardized set of rules that allows devices to communicate with each other, much like a common language. The real-life example provided was two people speaking the same language (e.g., English) to have a conversation. If one speaks only English and the other only Japanese, they cannot communicate effectively. Similarly, devices use protocols like HTTP or TCP/IP to ensure data is formatted, sent, and understood correctly.
+
+![alt text](image-4.png)
+![alt text](image-5.png)
+![alt text](image-6.png)
+![alt text](image-7.png)
 ---
 
 # 🌐 Task 2: Internet and Networking
@@ -86,6 +97,10 @@ Ports: Numeric entry points on a server that identify services (e.g., HTTP 80, H
 
 Practical DevOps note: Troubleshooting often involves checking IP reachability, port availability, protocol behavior, and firewall rules.
 
+**Explanation:**
+When a user in the USA accesses the EpicReads website hosted in Finland, their browser initiates a request using the HTTP/HTTPS protocol, ensuring the data is encrypted and secure. This request is broken down into smaller data chunks through packet switching, allowing these packets to travel efficiently across various global network routes and reassemble at the destination. Each device, including the user's computer and the Finnish server, is identified by a unique IP address, ensuring the data reaches the correct location. The TCP/IP protocol suite manages this entire process, with TCP guaranteeing that all packets arrive reliably and in the correct order, while IP handles the addressing and routing across the internet.
+
+
 ---
 
 # 🏗️ Task 3: Application Architecture & Stack
@@ -113,18 +128,6 @@ EpicReads bookstore has two application versions:
 * Submit a screenshot or photo clearly showing your own drawing
 
 ## Diagram Screenshot / Photo
-
-Save your diagram image in the `screenshots` folder and upd
-
-![alt text](image-1.png)
-
-* Three-tier: Presentation (frontend), Business Logic (backend), Database. More modular and maintainable.
-
-![alt text](image-2.png)
-
-* Two-tier: Presentation (frontend) and database. Simpler, direct frontend-to-database interaction.
-
-
 
 ---
 
@@ -160,7 +163,25 @@ Example apps used in the course: book-reviews (three-tier), React app (two-tier)
 
 DevOps relevance: Know which technologies are used so you can install/configure dependencies, open correct ports, and set up deployment pipelines.
 
+## Two-Tier Architecture:
+Layers: Frontend (Presentation) ↔ Database (Data)
+Communication: The frontend application communicates directly with the database.
+Technology Examples:
+Frontend: React, Next.js
+Database: PostgreSQL, MySQL
 
+![alt text](image-8.png)
+
+
+## Three-Tier Architecture:
+Layers: Frontend (Presentation) ↔ Backend (Business Logic) ↔ Database (Data)
+Communication: The frontend sends requests to the backend API, which processes the logic and then queries the database.
+Technology Examples:
+Frontend: React, Next.js
+Backend: Node.js, Express
+Database: PostgreSQL, MySQL
+
+![alt text](image-9.png)
 ---
 
 # 🌍 Task 4: Domain Name & DNS (Basic Concepts)
@@ -203,6 +224,8 @@ Domain Name & DNS (Basic Concepts)
 
 * DevOps note: If a service works by IP but not by domain, check DNS records, TTL, propagation, and record types (A vs CNAME), plus DNS resolver caching.
 
+**Explanation:**
+The Domain Name System (DNS) acts as the internet’s phone book, translating human-readable domain names (like epicreads.com) into machine-readable IP addresses. To connect the domain epicreads.com to the specific IPv4 address 52.172.142.222, your friend must use an A (Address) record. An A record is specifically designed to map a domain name directly to an IPv4 address, allowing user browsers to locate the correct server hosting the bookstore.
 
 ---
 
@@ -236,13 +259,16 @@ ls
 
 ## Screenshot
 
-Save your screenshot in the `screenshots` folder and update the file name below.
+**Setup Verification:**
+I have successfully installed Visual Studio Code and customized the interface with a dark theme for better readability. I opened the integrated terminal (Terminal → New Terminal) and ran basic OS commands to verify my environment.
+Command run: whoami (to verify my username)
+Command run: pwd (to show my current directory)
+Command run: dir or ls (to list directory contents)
 
-![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
 
 
 Replace `task-5-vscode.png` with your actual screenshot file name.
-
+![alt text](image-10.png)
 ---
 
 # 🔗 Task 6: Publish Your Assignment as a LinkedIn Post
@@ -278,17 +304,37 @@ Add the following credit note at the end of your post:
 Paste your LinkedIn post URL here:
 
 ```text
-Add your URL here...
+Add your URL here... https://www.linkedin.com/posts/rofiat-ahmed-sholagberu-80a69a108_devops-micro-internship-dmi-cohort-2-activity-7396146288246927361-hCK9?utm_source=share&utm_medium=member_desktop&rcm=ACoAABsnaQoBrwh6Nrqc-uJ-qfAGeR0KVdoIBVs 
 ```
 
 ---
 
 ## LinkedIn Post Backup Copy
 
-Paste the full text of your LinkedIn post here:
+Paste the full text of your LinkedIn post here:![alt text](image-11.png)
 
 Add your post content here...
+I’m really excited to start my DevOps journey with the DevOps Micro Internship Cohort 2. Even from Week 0, my confidence has grown so much.
+I now understand why every DevOps professional needs to master the basics from Internet and Networking to Application Architecture, DNS, and setting up tools like VS Code. I also learned how helpful ChatGPT can be as a learning assistant throughout this journey.
+I’m looking forward to learning, building real skills, and growing in this field. 🚀
+ 
+Below is my complete task 1-5 for week 0
 
+Using ChatGPT as Your Learning Assistant
+I discovered ChatGPT is a flexible study companion that can be used to explain concepts, simplify complex topics, give examples, and draft content in different tones/levels.
+
+Application Architecture & Stack
+Applications are structured in layers (2-tier, 3-tier, microservices) and built with stacks of frontend, backend, and database technologies know the stack to deploy and manage apps. e.g. Frontend (React / Next.js), Backend (Node.js/Express), DB (MySQL/Postgres). 
+
+Domain Name & DNS (Basic Concepts)
+Domain names are human-friendly addresses mapped to IPs by DNS. DNS resolution translates names to addresses via a hierarchy of servers. (like the internet’s phonebook converting domain names into IP addresses).
+
+Visual Studio Code Setup (Hands-on)
+VS Code is the recommended editor lightweight, extensible, with integrated terminal and many useful extensions. Completely installed Visual Studio Code customized my theme and prepare for more DevOps tools like Git, Docker, and Kubernetes.
+
+P.S. This post is part of the FREE DevOps Micro Internship (DMI) Cohort 2 run by Pravin Mishra. You can be part of this learning community too. 
+JOIN HERE DMI Cohort 2: https://lnkd.in/dt5CmQXd
+Pravin Mishra Profile: https://lnkd.in/dPqWJmem
 ---
 
 # Reflection – Week 0
